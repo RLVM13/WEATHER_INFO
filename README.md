@@ -23,3 +23,14 @@ TIP: usad el paquete de NPM UUID para manejar las keys de los diferentes element
 UUID
 Sobre formularios
 API Weather | 3-hour Forecast 5 days
+
+
+PARA USAR ARCHIVOS .ENV HAY QUE SEGUIR 4 PASOS
+----------------------------------------------
+npm install dotenv --save
+require('dotenv').config()
+
+// contents of .env
+REACT_APP_API_KEY = 'my-secret-api-key'
+
+Finally, add .env to your .gitignore file so that Git ignores it and it never ends up on GitHub.
